@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Triangular_and_square_number_reko'
