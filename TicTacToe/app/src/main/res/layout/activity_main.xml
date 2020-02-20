@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:screenOrientation="portrait">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="383dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278">
+
+        <ImageView
+            android:id="@+id/gameChip1"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:onClick="play"
+            app:layout_column="0"
+            app:layout_row="0"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip2"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft = "21dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:onClick="play"
+         />
+
+        <ImageView
+            android:id="@+id/gameChip3"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="19dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip4"
+            android:layout_width="125dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip5"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip6"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="2"
+            app:layout_row="1"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip7"
+            android:layout_width="125dp"
+            android:layout_height="112dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip8"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="1"
+            app:layout_row="2"
+            android:onClick="play"
+             />
+
+        <ImageView
+            android:id="@+id/gameChip9"
+            android:layout_width="100dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="20dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            android:onClick="play"
+             />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
